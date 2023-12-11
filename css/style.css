@@ -54,6 +54,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
+    background-color: var(--color-white);
 }
 
 h1 {
@@ -84,9 +85,18 @@ p {
 .parent {
     background-color: var(--color-silver);
 }
+
 /* End Global Rules */
 
 /* Start Header */
+.header {
+    padding: 28px 0;
+}
+
+.header .navbar {
+    background-color: var(--color-white) !important;
+}
+
 @media (min-width: 992px) {
     .header .navbar ul li {
         padding-left: 50px;
@@ -117,7 +127,7 @@ p {
 
 /* Start Landing */
 .landing {
-    margin: 96px 0;
+    padding: 96px 0;
 }
 
 .landing .row {
@@ -158,7 +168,7 @@ p {
 
 /* Start Clients */
 .clients {
-    margin: 40px 0;
+    padding: 40px 0;
 }
 
 .clients .container {
@@ -191,7 +201,7 @@ p {
 
 /* Start Community */
 .community {
-    margin: 40px 0;
+    padding: 80px 0 40px;
     text-align: center;
 }
 
@@ -211,6 +221,7 @@ p {
 .community .cards .item {
     min-width: 299px;
     padding: 24px 32px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
 }
 
 .community .cards .item img {
@@ -240,3 +251,34 @@ p {
     margin-bottom: 8px;
 }
 /* End Community */
+
+/* Start About */
+.about {
+    margin: -20px 0 0 0;
+    padding-bottom: 48px;
+}
+
+.about .container .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about .content h2 {
+    color: var(--color-d-gray);
+    margin-bottom: 16px;
+}
+
+.about .content p {
+    margin-bottom: 32px;
+}
+
+.about .content .button-primary {
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+
+.about .content-img img {
+    width: 100%;
+}
+/* End About */
