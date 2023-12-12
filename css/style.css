@@ -157,7 +157,8 @@ p {
 
 @media (max-width: 576px) {
     .landing .content-image {
-        padding-top: 3rem;
+        padding-bottom: 80px;
+        order: -1;
     }
 }
 
@@ -254,7 +255,6 @@ p {
 
 /* Start About */
 .about {
-    margin: -20px 0 0 0;
     padding-bottom: 48px;
 }
 
@@ -282,3 +282,144 @@ p {
     width: 100%;
 }
 /* End About */
+
+/* Start Achievements */
+.achievements {
+    padding: 48px 0;
+    background-color: var(--color-silver);
+}
+
+.achievements .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achievements h3 {
+    font-size: var(--font-size-heading-36);
+    color: var(--color-d-gray);
+    margin-bottom: 8px;
+}
+
+.achievements h3 span {
+    color: var(--color-primary);
+}
+
+.achievements p {
+    margin-bottom: 30px;
+}
+
+.achievements .cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.achievements .cards .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.achievements .cards .item img {
+    width: 48px;
+    height: 48px;
+}
+
+.achievements .cards .item h4 {
+    margin-bottom: 0;
+}
+/* End Achievements */
+
+/* Start Calender */
+.calender {
+    margin: 48px 0;
+}
+
+.calender .container .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.calender .content h2 {
+    color: var(--color-d-gray);
+    margin-bottom: 16px;
+}
+
+.calender .content p {
+    margin-bottom: 32px;
+}
+
+.calender .content .button-primary {
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+
+.calender .content-img img {
+    width: 100%;
+}
+/* End Calender */
+
+/* Start Customers */
+.customers {
+    margin: 48px 0;
+    padding: 32px 0;
+    background-color: var(--color-silver);
+}
+
+.customers .container .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.customers .content p {
+    margin-bottom: 16px;
+}
+
+.customers .content .author {
+    margin-bottom: 32px;
+}
+
+.customers .content .author h5 {
+    color: var(--color-primary);
+    margin-bottom: 8px;
+}
+
+.customers .content .author p {
+    color: var(--color-l-gray);
+    font-size: var(--font-size-16);
+}
+
+.customers .content .customer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.customers .content .customer-logo span {
+    width: 40px;
+}
+
+.customers .content .customer-logo span img {
+    width: 100%;
+}
+
+.customers .content .customer-logo a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: var(--font-size-heading-20);
+    font-weight: 600;
+}
+
+.customers .content-img {
+    width: 326px;
+}
+
+.customers .content-img img {
+    width: 100%;
+}
+/* End Customers */
